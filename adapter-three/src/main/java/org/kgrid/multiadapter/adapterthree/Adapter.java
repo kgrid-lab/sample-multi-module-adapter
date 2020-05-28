@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Map;
 import org.kgrid.multiadapter.adapterapi.AdapterApi;
 import org.kgrid.multiadapter.adapterapi.Executor;
-import org.kgrid.multiadapter.adapterapi.Ko;
+import org.kgrid.shelf.Ko;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.kgrid</groupId>
-    <artifactId>multi-adapter</artifactId>
+    <groupId>org.kgrid.multiadapter</groupId>
+    <artifactId>multi-adapter-parent</artifactId>
     <version>0.42.2-SNAPSHOT</version>
   </parent>
 
@@ -18,9 +18,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.kgrid</groupId>
+      <groupId>org.kgrid.multiadapter</groupId>
       <artifactId>adapter-api</artifactId>
-      <version>${adapter-api.version}</version>
+      <version>0.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
