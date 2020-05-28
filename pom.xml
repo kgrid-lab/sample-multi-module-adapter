@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.3.0.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
+  <groupId>org.kgrid</groupId>
+  <artifactId>multi-adapter</artifactId>
+  <version>0.42.2-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <description>Demo project for Spring Boot (multi module w/ parent)</description>
+  <name>multi-adapter</name>
+
+  <!--    Modules capture the default build scope. But, for example, `adapter-api` may be
+          part of the default build, but not the mvn deploy, depending on how the child pom
+          is configured and things like `-pl` flags -->
+  <modules>
+    <module>adapter-api</module>
+    <module>shelf</module> <!-- an external module -->
+    <module>adapter-one</module>
+    <module>adapter-two</module>
+    <module>adapter-three</module>
+    <module>adapter-gateway</module>
+  </modules>
+
+  <properties>
+    <java.version>9</java.version>
+    <adapter-api.version>0.1.0</adapter-api.version>
+    <shelf.version>20.99-SNAPSHOT</shelf.version>
+  </properties>
+
+  <!--  This can be useful for configuring dependencies (versions, config, etc.)
+        that *might* be used by other modules but the <dependency/> itself
+        will still need to be added to child poms -->
+  <dependencyManagement>
+<!--    <dependency>-->
+<!--      <artifactId>spring-boot-starter-actuator</artifactId>-->
+<!--      <groupId>org.springframework.boot</groupId>-->
+<!--    </dependency>-->
+<!--    <dependencies>-->
+<!--      <dependency>-->
+<!--        <artifactId>spring-boot-starter-logging</artifactId>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--      </dependency>-->
+<!--      <dependency>-->
+<!--        <artifactId>spring-boot-starter-test</artifactId>-->
+<!--        <exclusions>-->
+<!--          <exclusion>-->
+<!--            <artifactId>junit-vintage-engine</artifactId>-->
+<!--            <groupId>org.junit.vintage</groupId>-->
+<!--          </exclusion>-->
+<!--        </exclusions>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <scope>test</scope>-->
+<!--      </dependency>-->
+<!--    </dependencies>-->
+  </dependencyManagement>
+
+  <build>
+<!--    This can be useful for configuring plugins that *might* be used by other modules
+        but the <plugin/> will still need to be added to child poms -->
+    <pluginManagement>
+      <plugins>
+<!--        <plugin>-->
+<!--          <groupId>org.apache.maven.plugins</groupId>-->
+<!--          <artifactId>maven-compiler-plugin</artifactId>-->
+<!--          <version>3.8.1</version>-->
+<!--        </plugin>-->
+<!--        <plugin>-->
+<!--          <groupId>org.springframework.boot</groupId>-->
+<!--          <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--          <version>2.3.0.RELEASE</version>-->
+<!--        </plugin>-->
+      </plugins>
+    </pluginManagement>
+</build>
+
+
+</project>

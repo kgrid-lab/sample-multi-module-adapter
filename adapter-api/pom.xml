@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.kgrid</groupId>
+    <artifactId>multi-adapter</artifactId>
+    <version>0.42.2-SNAPSHOT</version>
+  </parent>
+
+  <groupId>org.kgrid.multiadapter</groupId>
+  <artifactId>adapter-api</artifactId>
+  <version>0.1.0</version>
+  <packaging>jar</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.kgrid</groupId>
+      <artifactId>shelf</artifactId>
+      <version>20.99-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
+</project>
