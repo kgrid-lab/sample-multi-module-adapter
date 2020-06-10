@@ -24,7 +24,6 @@
           is configured and things like `-pl` flags -->
   <modules>
     <module>adapter-api</module>
-    <module>shelf</module> <!-- an external module -->
     <module>adapter-one</module>
     <module>adapter-two</module>
     <module>adapter-three</module>
