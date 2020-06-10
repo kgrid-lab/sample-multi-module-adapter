@@ -18,8 +18,8 @@
   <dependencies>
     <dependency>
       <groupId>org.kgrid</groupId>
-      <artifactId>shelf</artifactId>
-      <version>20.99-SNAPSHOT</version>
+      <artifactId>sandbox-dependency</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
