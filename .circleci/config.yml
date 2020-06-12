@@ -7,4 +7,4 @@ workflows:
   maven_test:
     jobs:
       - maven/test: # checkout, build, test, and upload test results
-        command: 'install' # install also run verify, which is the default command
+          command: 'install' # install also run verify, which is the default command
