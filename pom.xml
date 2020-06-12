@@ -82,5 +82,17 @@
     </pluginManagement>
 </build>
 
+  <repositories>
+    <repository>
+      <id>dependency-snapshots-repo</id>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </repository>
+  </repositories>
 
 </project>
