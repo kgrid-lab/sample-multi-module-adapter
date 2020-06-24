@@ -18,8 +18,8 @@
   <dependencies>
     <dependency>
       <groupId>org.kgrid</groupId>
-      <artifactId>sandbox-dependency</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <artifactId>sample-dependency</artifactId>
+      <version>0.2.12</version>
     </dependency>
   </dependencies>
 

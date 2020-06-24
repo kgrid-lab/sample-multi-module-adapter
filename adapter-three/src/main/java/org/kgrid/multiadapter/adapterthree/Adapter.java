@@ -2,9 +2,10 @@ package org.kgrid.multiadapter.adapterthree;
 
 import java.util.Collections;
 import java.util.Map;
+
+import org.kgrid.SampleDependency.Service.Ko;
 import org.kgrid.multiadapter.adapterapi.AdapterApi;
 import org.kgrid.multiadapter.adapterapi.Executor;
-import org.kgrid.sandboxdependency.service.Ko;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
