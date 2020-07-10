@@ -31,7 +31,7 @@
   </modules>
 
   <properties>
-    <java.version>9</java.version>
+    <java.version>11</java.version>
     <adapter-api.version>0.1.0</adapter-api.version>
     <shelf.version>20.99-SNAPSHOT</shelf.version>
   </properties>
